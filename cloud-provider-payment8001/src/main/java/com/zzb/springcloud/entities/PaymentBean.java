@@ -1,0 +1,15 @@
+package com.zzb.springcloud.entities;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class PaymentBean {
+
+    private Long id;
+    private String serial;
+}
